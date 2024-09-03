@@ -1,0 +1,44 @@
+@font-face {
+    font-family: Orbitron;
+    src: url(./Orbitron-Bold.ttf);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #333;
+    font-family: 'Orbitron', sans-serif;
+    background-image: url(./pngtree-digital-clock-with-book.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.digital-clock {
+    background: #111;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5), inset 0 0 10px #000, inset 0 0 20px #000;
+    text-align: center;
+    color: #f1e210;
+    backdrop-filter: blur(5px) saturate(200%);
+    -webkit-backdrop-filter: blur(5px) saturate(200%);
+    background-color: rgba(0, 0, 0, 0.12);
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+#time {
+    font-size: 60px;
+    letter-spacing: 3px;
+    text-shadow: 0 0 10px #ff0000;
+}
+
+#date {
+    font-size: 30px;
+    color: #f1e210;
+    margin-top: 10px;
+    text-shadow: 0 0 5px #ff0000;
+}
